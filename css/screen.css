@@ -9,7 +9,7 @@ body { background:#fff; font: normal 100%/24px "ConduitItc", Helvetica, Arial, S
 header { background:#fff; border-top:solid 4px #222; position:relative; z-index:999; }
 .branding { float:left; margin:8px 20px 4px 7px; }
 
-nav { border-bottom:solid 1px #c2c2c2; clear:left; }
+nav { clear:left; }
 	nav a { position:relative; color:#222222; display:inline-block; font-size:20px; line-height:16px; font-weight:bold; padding:6px 8px 10px 10px; }
 	nav a:after { background:url(../img/down-arrow.png) no-repeat center 12px; content:""; display:none; width:18px; height:20px; }
 	nav a:last-child:after { background:url(../img/plus-icon.png) no-repeat center 9px; }
@@ -31,11 +31,10 @@ menu { float:right; margin:25px 15px 0 0; text-align:right; }
 	
 	::-webkit-input-placeholder { color:#a3a3a3; font-style:italic; }
 
-.submenu { background:#fff; border-bottom:solid 1px #c2c2c2; display:none; opacity:0; overflow:hidden; height:0px; }
+.submenu { background:#f6f6f6; border-bottom:solid 1px #c2c2c2; display:block; overflow:hidden; }
 
-aside { background:#f6f6f6; float:left; width:180px; border-right:solid 1px #c2c2c2; margin-right:30px; padding:20px 0; min-height:360px; }
-	aside a { color:#222; display:block; font-size:18px; line-height:35px; padding:0 20px 0 10px; border-top:solid 1px #f6f6f6; border-bottom:solid 1px #f6f6f6; }
-	aside a.active {  padding:0 20px 0 10px; background:#fff; border-left:solid 1px #c2c2c2; border-top:solid 1px #c2c2c2; border-bottom:solid 1px #c2c2c2; border-right:solid 1px #fff; margin-right:-1px; color:#39C; }
+aside { background:#f6f6f6; }
+	aside a { color:#222; display:inline-block; font-size:18px; padding:5px 10px; }
 
 .column { display:table-cell; padding:5px 15px; width:230px; }
 	.column .row { display:table-row; }
@@ -63,12 +62,3 @@ a{ color:#39C;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-transition:color
 .display { position:relative; }
 	.display .overlay { background:#000; cursor:pointer; display:none; opacity:0; position:absolute; top:0px; left:0px; right:0px; bottom:0px; }
 
-.panels { position:absolute; width:100%; }	
-	.panels .panels { display:table; margin-left:200px; width:800px; }
-.shop { background:#fff url(../img/shop_bg.png) repeat-y; background-size:18% auto; }
-	.brands-panel { display:none; }
-	.mens-panel { display:table; }
-	.womens-panel { display:none; }
-	.kids-panel { display:none; }
-	.sports-panel .column { margin-left:50px; width:180px; }
-	.sports-panel .group .column { margin-left:0px; width:150px; }
