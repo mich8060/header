@@ -1,0 +1,6 @@
+What are you shopping for today?
+Can you show me how you would go about finding that on this site?
+Do you have a favorite brand that you typically like to buy stuff from?
+Can you show me how you'd go about see product from {brand}
+Based on what you see here, what things do you think backcountry has to offer?
+If you wanted to know about the latest videos, photos, reports, and expert advice from backcountry?

@@ -1,0 +1,74 @@
+@font-face{font-family:'ConduitItc';font-style:normal;font-weight:normal;src:url('http://www.backcountry.com/fonts/conduititc-light-webfont.eot?#iefix');src:url('http://www.backcountry.com/fonts/conduititc-light-webfont.eot?#iefix') format("eot"),url('http://www.backcountry.com/fonts/conduititc-light-webfont.woff') format("woff"),url('http://www.backcountry.com/fonts/conduititc-light-webfont.ttf') format("truetype"),url('http://www.backcountry.com/fonts/conduititc-light-webfont.svg#conduititc-light-webfont') format("svg")}
+@font-face{font-family:'ConduitItc';font-style:italic;font-weight:normal;src:url('http://www.backcountry.com/fonts/conduititc-light-italic-webfont.eot?#iefix');src:url('http://www.backcountry.com/fonts/conduititc-light-italic-webfont.eot?#iefix') format("eot"),url('http://www.backcountry.com/fonts/conduititc-light-italic-webfont.woff') format("woff"),url('http://www.backcountry.com/fonts/conduititc-light-italic-webfont.ttf') format("truetype"),url('http://www.backcountry.com/fonts/conduititc-light-italic-webfont.svg#conduititc-light-italic-webfont') format("svg")}
+@font-face{font-family:'ConduitItc';font-style:normal;font-weight:bold;src:url('http://www.backcountry.com/fonts/conduititc-bold-webfont.eot?#iefix');src:url('http://www.backcountry.com/fonts/conduititc-bold-webfont.eot?#iefix') format("eot"),url('http://www.backcountry.com/fonts/conduititc-bold-webfont.woff') format("woff"),url('http://www.backcountry.com/fonts/conduititc-bold-webfont.ttf') format("truetype"),url('http://www.backcountry.com/fonts/conduititc-bold-webfont.svg#conduititc-bold-webfont') format("svg")}
+@font-face{font-family:'ConduitItc';font-style:normal;font-weight:900;src:url('http://www.backcountry.com/fonts/conduititc-extrabold-webfont.eot?#iefix');src:url('http://www.backcountry.com/fonts/conduititc-extrabold-webfont.eot?#iefix') format("eot"),url('http://www.backcountry.com/fonts/conduititc-extrabold-webfont.woff') format("woff"),url('http://www.backcountry.com/fonts/conduititc-extrabold-webfont.ttf') format("truetype"),url('http://www.backcountry.com/fonts/conduititc-extrabold-webfont.svg#conduititc-extrabold-webfont') format("svg")}
+
+html{font-size:16px;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%;}
+body { background:#fff; font: normal 100%/24px "ConduitItc", Helvetica, Arial, Sans-Serif; }
+
+header { background:#fff; border-top:solid 4px #222; position:relative; z-index:999; }
+.branding { float:left; margin:8px 20px 4px 7px; }
+
+nav { border-bottom:solid 1px #c2c2c2; clear:left; }
+	nav a { position:relative; color:#222222; display:inline-block; font-size:20px; line-height:16px; font-weight:bold; padding:6px 8px 10px 10px; }
+	nav a:after { background:url(../img/down-arrow.png) no-repeat center 12px; content:""; display:none; width:18px; height:20px; }
+	nav a:last-child:after { background:url(../img/plus-icon.png) no-repeat center 9px; }
+	nav span { color:#666; display:block; font-weight:normal; font-style:italic; font-size:12px; }
+	
+	nav a:nth-child(2):hover { color:#9C3; }
+	nav a:nth-child(3):hover { color:#E48325; }
+
+menu { float:right; margin:25px 15px 0 0; text-align:right; }
+	menu a.utility { color:#222; display:inline-block; font-size:18px; font-weight:bold; margin-top:19px; padding:3px 0px 4px 15px; }
+	menu a.utility:after { background:url(../img/down-arrow.png) no-repeat center center; content:""; display:inline-block; height:10px; margin-left:5px; width:10px; }
+		menu a.utility:last-child:after { display:none; }
+		menu a.utility:last-child:before { background:url(../img/cart-icon.png) no-repeat center center; content:""; display:inline-block; height:14px; margin-right:7px; width:14px; }
+	menu .or { color:#a3a3a3; display:inline-block; margin:0 4px; font-style:italic; }
+
+.search { float:left; margin-top:15px }
+	.search input[type="text"] { background:#ededed; border:solid 1px #a3a3a3; color:#222; float:left;  font-family:"ConduitItc"; font-size:18px; margin:0 5px 0 0; padding:6px 8px 7px 8px; -webkit-border-radius:3px; width:360px; }
+	.search a { float:left; }
+	
+	::-webkit-input-placeholder { color:#a3a3a3; font-style:italic; }
+
+.submenu { background:#fff; border-bottom:solid 1px #c2c2c2; display:none; opacity:0; overflow:hidden; height:0px; }
+
+aside { background:#f6f6f6; float:left; width:180px; border-right:solid 1px #c2c2c2; margin-right:30px; padding:20px 0; min-height:360px; }
+	aside a { color:#222; display:block; font-size:18px; line-height:35px; padding:0 20px 0 10px; border-top:solid 1px #f6f6f6; border-bottom:solid 1px #f6f6f6; }
+	aside a.active {  padding:0 20px 0 10px; background:#fff; border-left:solid 1px #c2c2c2; border-top:solid 1px #c2c2c2; border-bottom:solid 1px #c2c2c2; border-right:solid 1px #fff; margin-right:-1px; color:#39C; }
+
+.column { display:table-cell; padding:5px 15px; width:230px; }
+	.column .row { display:table-row; }
+	.column .group {display: table-row-group; }
+	.column a { border-top:solid 1px #ededed; display:block; font-size:16px; padding:5px 0; line-height:16px; }
+		.column a.all { border:none; color:#222; margin-top:5px; }
+	.column span { background:#f6f6f6; color:#222; font-size:12px; font-weight:bold; display:block; line-height:16px; padding:0 5px; margin:0 -5px -2px -5px; }
+	.column h3 { font-size:18px; line-height:18px; padding:25px 0 10px 0; }
+
+.container { margin:0 auto; width:1000px; }
+
+.alphabet { padding:20px 0 15px 13px; white-space:nowrap; }
+	.alphabet a { font-size:14px; border-right:solid 1px #c2c2c2; line-height:14px; display:inline-block; text-align:left; margin-left:8px; width:15px; text-transform:uppercase; }
+		.alphabet a:last-child { border:none; text-transform:none; }
+
+a{ color:#39C;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-transition:color 0.2s ease;-moz-transition:color 0.2s ease;transition:color 0.2s ease;}
+	a:hover { color:#0b5792; }
+
+.brands { display: table; padding:20px 0; width:750px; }
+	.brands li { display: table-cell; text-align:left; vertical-align:middle; }
+	.brands img { margin-left:10px; width:50%; }
+
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+
+.display { position:relative; }
+	.display .overlay { background:#000; cursor:pointer; display:none; opacity:0; position:absolute; top:0px; left:0px; right:0px; bottom:0px; }
+
+.panels { position:absolute; width:100%; }	
+	.panels .panels { display:table; margin-left:200px; width:800px; }
+.shop { background:#fff url(../img/shop_bg.png) repeat-y; background-size:18% auto; }
+	.brands-panel { display:none; }
+	.mens-panel { display:table; }
+	.womens-panel { display:none; }
+	.kids-panel { display:none; }
+	.sports-panel .column { margin-left:50px; width:180px; }
+	.sports-panel .group .column { margin-left:0px; width:150px; }
