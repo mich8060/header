@@ -1,29 +1,5 @@
 $(document).ready(function(){
 	
-<<<<<<< HEAD
-	var options = {
-		menu: 	false,
-		pageX: 	null,
-		pageY: 	null,
-		startX: null,
-		startY: null,
-		timer: null,
-		change: false,
-	}
-	
-	
-	$('.column a').click(function(){
-		location.reload();
-	});
-	
-	$('.panels .panels').hide();
-	$('.panels .panels').eq(0).show();
-
-	$(document).mousemove(function(e){
-		options.pageX = e.pageX;
-		options.pageY = e.pageY;
-	});
-=======
 	$(window).load(function(){
 		var subnav = $('.subnavigation').offset().top;
 		
@@ -33,7 +9,6 @@ $(document).ready(function(){
 			}, 300);
 			return false;
 		});
->>>>>>> 3rd-Level-Displayed
 
 		$(window).scroll(function(){
 	        if($(window).scrollTop() > subnav) {
