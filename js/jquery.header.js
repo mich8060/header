@@ -10,6 +10,11 @@ $(document).ready(function(){
 		change: false,
 	}
 	
+	
+	$('.column a').click(function(){
+		location.reload();
+	});
+	
 	$('.panels .panels').hide();
 	$('.panels .panels').eq(0).show();
 
